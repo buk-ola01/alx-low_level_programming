@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
-  * main - Print the size of varoius types on the computer
-  *
-  * Return - 0
+  * main -Print the sizes of various data types on the computer
+  * Code by Abdulsamad
+  * Return: Always 0 (Success)
 */
 int main(void)
 {

@@ -1,12 +1,12 @@
 /*
  * File: 4-puts.c
  * Auth: Abdulsamad
- * Desc: A program that reads in a user's initials and age,
- *	 and prints them out.
+ * Desc: A program that prints exactly "Programming is like building
+ *	a multilingual puzzle, followed by a new line.
  */
 #include <stdio.h>
 /**
-  * main - print out a line using puts function
+  * main - Entry point
   *
   * Return: 0
 */

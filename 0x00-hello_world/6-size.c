@@ -1,8 +1,15 @@
+/*
+ * File: 6-size.c
+ * Auth: Abdulsamd
+ * Desc: A program that that prints the size of various types on the,
+ *	 computer it is compiled and run on.
+ */
+
 #include <stdio.h>
 
 /**
-  * main -Print the sizes of various data types on the computer
-  * Code by Abdulsamad
+  * main - Entry point
+  *
   * Return: Always 0 (Success)
 */
 int main(void)

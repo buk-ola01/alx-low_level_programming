@@ -1,9 +1,15 @@
+/*
+ * File: 101-quote.c
+ * Auth: Abdulsamad
+ * Desc: Prints "and that piece of art is useful" - Dora Korpar,2015-10-19",
+ *	followed by a new line, to standard error.
+ */
+
 #include <unistd.h>
 
 /**
-  * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
-  *		followed by a new line, to standard error.
-  * Code by Abdulsamad.
+  * main - Entry point
+  *
   * Return: Always 1 (Success)
   */
 int main(void)

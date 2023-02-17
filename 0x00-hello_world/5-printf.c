@@ -7,7 +7,7 @@
 
 #include <stdio.h>
 /**
-  * main - print a line using printf
+  * main - Entry point
   *
   * Return: 0
 */

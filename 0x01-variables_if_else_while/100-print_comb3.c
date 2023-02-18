@@ -1,5 +1,5 @@
 /*
- * File: 9-print_comb3.c
+ * File: 101-print_comb3.c
  * Auth: Abdulsamad.
  */
 

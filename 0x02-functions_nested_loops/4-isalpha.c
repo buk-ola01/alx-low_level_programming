@@ -9,6 +9,9 @@
 
 int _isalpha(int c)
 {
+	int i;
+	int j;
+
 	for (i = 65; i <= 91; i++)
 	{
 		if (i == c)

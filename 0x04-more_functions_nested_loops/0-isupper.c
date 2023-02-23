@@ -13,7 +13,7 @@ int _isupper(int c)
 
 	for (i = 65; i <= 91; i++)
 	{
-		if (i == c)
+		if (c == i)
 		{
 			return (1);
 		}

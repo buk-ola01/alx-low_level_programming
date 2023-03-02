@@ -8,31 +8,30 @@
 
 char *cap_string(char *s)
 {
-	int i, j;
-	int capitalize = 1;
-	char sep[] = {'\n', '\t', ' ', '.', ',', ';', '!', '?', '(',
-')', '{', '}'};
+	int i = 0, j;
+	char sep[] = {'\n', '\t', ' ', '.', ',', ';', '!', '?', '"', '(', ')',
+		'{', '}'};
 
-	for (i = 0; s[i]; i++)
+	while (s[i])
 	{
-		for (j = 0; j < 13; j++)
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			if (s[i] == sep[j])
+			if (i == 0)
 			{
-				capitalize = 1;
-				break;
+				s[i] -= 'a' - 'A';
+			}
+			else
+			{
+				for (j = 0; j < 13; j++)
+				{
+					if (sep[j] == s[i - 1])
+					{
+						s[i] -= 'a' - 'A';
+					}
+				}
 			}
 		}
-		if (capitalize && s[i] >= 'a' && s[i] <= 'z')
-		{
-			s[i] -= 'a' - 'A';
-			capitalize = 0;
-		}
-		else if (s[i] >= 'A' && s[i] <= 'Z')
-		{
-			capitalize = 0;
-		}
-
+		i++;
 	}
 
 	return (s);

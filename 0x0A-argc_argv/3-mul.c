@@ -12,7 +12,8 @@
  * @argc: No of arguements.
  * @argv: Array of pointers
  *
- * Return: 0(Success)
+ * Return: If the program receives two arguments - 0.
+ *	If the program does not recieve two arguments - 1.
  */
 
 int main(int argc, char *argv[])

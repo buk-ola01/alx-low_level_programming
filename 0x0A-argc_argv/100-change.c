@@ -13,7 +13,8 @@
  * @argc: argument count.
  * @argv: arguments.
  *
- * Return: 0
+ * Return: If the no of argument is not exactly one - 1
+ *	Otherwise - 0.
  */
 
 int main(int argc, char *argv[])

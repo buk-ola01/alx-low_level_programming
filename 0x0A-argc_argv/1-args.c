@@ -1,3 +1,8 @@
+/*
+ * File: 1-args.c
+ * Auth: Abdulsamad.
+ */
+
 #include <stdio.h>
 #include "main.h"
 

@@ -1,3 +1,8 @@
+/*
+ * File: 0-whatismyname.c
+ * Auth: Abdulsamad.
+ */
+
 #include <stdio.h>
 #include "main.h"
 

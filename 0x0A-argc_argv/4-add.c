@@ -12,7 +12,8 @@
  * @argc: argument count.
  * @argv: Arguments
  *
- * Return: 0
+ * Return: If one of the number contains symbols that are not digits - 1
+ *	Otherwise - 0.
  */
 
 int main(int argc, char *argv[])

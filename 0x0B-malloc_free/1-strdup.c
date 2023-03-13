@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -26,7 +27,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	new_string = (char *)malloc(sizeof(str) + 1);
+	new_string = (char *)malloc(strlen(str) + 1);
 
 	if (new_string == NULL)
 	{

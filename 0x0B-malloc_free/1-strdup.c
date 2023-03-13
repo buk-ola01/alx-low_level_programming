@@ -9,11 +9,11 @@
 #include <stdio.h>
 
 /**
- * strdup - function that returns a pointer to a newly allocated space in
+ * _strdup - function that returns a pointer to a newly allocated space in
  *	memory, which contains a copy of the string given as a parameter.
  * @str: string
  *
- * Return - If str is NULL, if insufficient memory was available - NULL
+ * Return: If str is NULL, if insufficient memory was available - NULL
  *	Otherwise - returns a pointer to the duplicated string
  */
 
